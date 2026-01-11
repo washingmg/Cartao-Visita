@@ -1,8 +1,10 @@
+import profileImg from '../assets/profile.jpeg'; 
+
 function ProfileHeader() {
   return (
     <div className="flex flex-col items-center text-center gap-4">
       <img
-        src="/src/assets/profile.jpeg"
+        src={profileImg}
         alt="Perfil"
         className="w-28 h-28 rounded-full border-4 border-indigo-900 mt-4"
       />
