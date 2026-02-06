@@ -4,7 +4,7 @@ function ButtonLink({ link }) {
       href={link.url}
       target="_blank"
       rel="noreferrer"
-      className="w-full text-center bg-indigo-900 text-white py-3 rounded-lg font-medium hover:bg-indigo-700 transition"
+      className="w-full text-center bg-[#214d44] text-white py-4 rounded-full font-medium hover:bg-[#167e69] transition "
     > {link.title} </a>
   );
 }

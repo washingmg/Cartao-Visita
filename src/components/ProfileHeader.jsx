@@ -6,10 +6,10 @@ function ProfileHeader() {
       <img
         src={profileImg}
         alt="Perfil"
-        className="w-28 h-28 rounded-full border-4 border-indigo-900 mt-4"
+        className="w-30 h-28 rounded-full border-4 border-[#235347] mt-4"
       />
       <h1 className="text-2xl font-bold">Washington Medeiros</h1>
-      <p className="text-gray-700">Acesse minhas redes!</p>
+      <p className="text-[#0c6457] font-bold">Acesse minhas redes!</p>
     </div>
   );
 }
