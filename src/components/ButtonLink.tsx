@@ -1,12 +1,16 @@
-function ButtonLink({ link }) {
+import type {Link } from '../data/links'
+
+function ButtonLink({ link }: { link: Link }) {
   return (
     <a
       href={link.url}
       target="_blank"
       rel="noreferrer"
       className="w-full text-center bg-[#214d44] text-white py-4 rounded-full font-medium hover:bg-[#167e69] transition "
-    > {link.title} </a>
-  );
+    >
+      {link.title}
+    </a>
+  )
 }
 
-export default ButtonLink;
+export default ButtonLink

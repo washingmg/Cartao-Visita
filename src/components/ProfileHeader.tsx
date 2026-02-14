@@ -1,6 +1,6 @@
-import profileImg from '../assets/profile.jpeg'; 
+import profileImg from '../assets/profile.jpeg'
 
-function ProfileHeader() {
+export default function ProfileHeader() {
   return (
     <div className="flex flex-col items-center text-center gap-4">
       <img
@@ -11,7 +11,5 @@ function ProfileHeader() {
       <h1 className="text-2xl font-bold">Washington Medeiros</h1>
       <p className="text-[#0c6457] font-bold">Acesse minhas redes!</p>
     </div>
-  );
+  )
 }
-
-export default ProfileHeader;
